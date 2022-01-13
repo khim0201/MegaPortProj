@@ -35,7 +35,7 @@ public class DataProcess {
 	{
 		String path = System.getProperty("user.dir");
 		String SEPARATOR = System.getProperty("file.separator");
-		FileWriter fileWriter = new FileWriter(path + SEPARATOR + "sorted-names-list.txt");
+		FileWriter fileWriter = new FileWriter(path + SEPARATOR + "names-sorted.txt");
 		PrintWriter printWriter = new PrintWriter(fileWriter);
 		for (String str: al) {
 			printWriter.println(str);
